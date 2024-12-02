@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Solar Solutions - Contact us</title>
+    <link rel="shortcut icon" href="assets\images\favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <b>SOLAR SOLUTIONS</b>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html" title="Home" class="page">Home</a></li>
+                    <li><a href="product.html" title="Products" class="page">Products</a></li>
+                    <li><a href="services.html" title="Services" class="page">Services</a></li>
+                    <li><a href="about.html" title="About us" class="page">About us</a></li>
+                    <li><a href="contact.html" title="Contact" class="page">Contact</a></li>
+                    <li>
+                        <a href="login.html" title="LogIn/SignIn" class="page"><i class="fa-solid fa-circle-user"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-container">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form action="#">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <br>
+                        <input type="text" id="name" name="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <br>
+                        <input type="email" id="email" name="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <br>
+                        <textarea id="message" name="message" placeholder="Your message"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" onclick="sendMessageAlert()">Send Message</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <h3>Our Contact Information</h3>
+                <p><strong>Phone:</strong> +92 300 1234567</p>
+                <p><strong>Email:</strong> info@solarsolutions.com</p>
+                <p><strong>Address:</strong> 123 Solar Street, Lahore, Pakistan</p>
+
+                <div class="contact-social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.2053829347637!2d73.03317667568516!3d31.600831574177214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39223f08dbbe5fa5%3A0xb45ea8924093c29d!2sFAST%20University%20(Chiniot-Faisalabad%20Campus)!5e0!3m2!1sen!2s!4v1732984638678!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section company">
+                <h3>Solar Solutions</h3>
+                <p>
+                    Leading the way in renewable energy. Let’s build a sustainable
+                    future together.
+                </p>
+            </div>
+            <div class="footer-section links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h4>Contact Us</h4>
+                <p><strong>Email:</strong> info@solarsolutions.com</p>
+                <p><strong>Phone:</strong> +92 300 1234567</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SolarTech Solutions | All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="assets\js\script.js"></script>
+</body>
+</html>
